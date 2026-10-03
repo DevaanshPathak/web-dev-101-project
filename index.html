@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Devaansh Pathak: CS and AI/ML student building reliable LLM agents and reinforcement learning environments.">
+  <title>Devaansh Pathak</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky header: flexbox + position: sticky -->
+  <header class="site-header">
+    <a class="logo" href="#top">Devaansh Pathak</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <p class="status"><span class="dot"></span> Founder, Indium AI Labs</p>
+      <h1>I build reliable LLM agents and RL environments.</h1>
+      <p class="lead">CS and AI/ML student working across agents, evaluation systems, AI infrastructure and applied engineering.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#work">See my work</a>
+        <a class="btn btn-ghost" href="https://github.com/DevaanshPathak">GitHub</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/devaanshpa/">LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- About: flexbox two-column -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="about-body">
+        <img class="portrait" src="me.jpg" alt="Portrait of Devaansh Pathak" width="320" height="400">
+        <p>I like problems where models, tools, data and systems meet, especially when behaviour needs to be measured carefully rather than only demoed. I prefer software that can be inspected, tested and improved over time. This site is a working record of what I am building and learning.</p>
+        <aside class="note">
+          <h3>Quick facts</h3>
+          <ul>
+            <li>Student at Scaler School of Technology, class of 2030</li>
+            <li>Founder of Indium AI Labs</li>
+            <li>Current research thread: CrashDiag</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Work: CSS Grid cards -->
+    <section id="work" class="section">
+      <h2>Work</h2>
+      <div class="card-grid">
+        <article class="card wide">
+          <h3>CrashDiag</h3>
+          <p>A mechanically verified infrastructure-diagnosis RL environment. Agents repair faults through bounded JSON actions, and rewards come from executable sandbox checks and state-based tests instead of LLM judges. It is the first environment from Indium AI Labs.</p>
+          <ul class="tags">
+            <li>Infrastructure RL</li>
+            <li>Mechanical rewards</li>
+            <li>Bounded actions</li>
+          </ul>
+          <a href="https://devaanshpathak.com/research/crashdiag">Read the project page</a>
+        </article>
+        <article class="card">
+          <h3>Indium AI Labs</h3>
+          <p>A lab building mechanically verified reinforcement-learning environments for infrastructure and security agents.</p>
+          <a href="https://github.com/Indium-AI-Labs">View on GitHub</a>
+        </article>
+        <article class="card">
+          <h3>TokenScope</h3>
+          <p>Tokenizer inspection as evaluation infrastructure, built to support reliable agent evaluation in CrashDiag.</p>
+          <a href="https://devaanshpathak.com/blog/tokenscope-tokenizer-inspection-for-crashdiag">Read the write-up</a>
+        </article>
+        <article class="card">
+          <h3>rpi-pentest-kit</h3>
+          <p>A portable penetration testing kit built on a Raspberry Pi, with tools like Metasploit, Wireshark and Nmap.</p>
+          <a href="https://github.com/DevaanshPathak/rpi-pentest-kit">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Interests: lists -->
+    <section class="section">
+      <h2>Technical interests</h2>
+      <ul class="interest-list">
+        <li>Reliable LLM systems</li>
+        <li>Reinforcement learning environments</li>
+        <li>Evaluation pipelines and benchmarks</li>
+        <li>AI infrastructure and tooling</li>
+        <li>Full-stack product engineering</li>
+        <li>Failure analysis and debugging</li>
+      </ul>
+    </section>
+
+    <!-- Writing: table -->
+    <section id="writing" class="section">
+      <h2>Writing</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Recent posts from my blog</caption>
+          <thead>
+            <tr>
+              <th scope="col">Date</th>
+              <th scope="col">Post</th>
+              <th scope="col">Read time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>31 Jul 2026</td>
+              <td><a href="https://devaanshpathak.com/blog/crashdiag-mechanically-verified-infrastructure-rl">CrashDiag: Mechanically Verified RL for Infrastructure Repair</a></td>
+              <td>12 min</td>
+            </tr>
+            <tr>
+              <td>20 Jul 2026</td>
+              <td><a href="https://devaanshpathak.com/blog/starting-indium-ai-labs">Starting Indium AI Labs</a></td>
+              <td>9 min</td>
+            </tr>
+            <tr>
+              <td>3 Jul 2026</td>
+              <td><a href="https://devaanshpathak.com/blog/tokenscope-tokenizer-inspection-for-crashdiag">TokenScope v0.2: Tokenizer Inspection as Evaluation Infrastructure</a></td>
+              <td>12 min</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Stack: table -->
+    <section id="stack" class="section">
+      <h2>Tech stack</h2>
+      <div class="table-wrap">
+        <table>
+          <caption>Tools I work with</caption>
+          <thead>
+            <tr>
+              <th scope="col">Area</th>
+              <th scope="col">Tools</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Languages</td><td>Python, C, C++, TypeScript, JavaScript, Bash</td></tr>
+            <tr><td>ML</td><td>PyTorch, TensorFlow, scikit-learn, NumPy, Pandas</td></tr>
+            <tr><td>Web</td><td>React, Next.js, FastAPI, Node.js, Tailwind CSS</td></tr>
+            <tr><td>Data</td><td>PostgreSQL, MongoDB, Redis, SQLite</td></tr>
+            <tr><td>Infrastructure</td><td>Docker, Kubernetes, Cloudflare, AWS, GitHub Actions</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Contact: form -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="form-intro">Or email me directly at <a href="mailto:devaanshpathak08@gmail.com">devaanshpathak08@gmail.com</a>.</p>
+      <form class="form" action="mailto:devaanshpathak08@gmail.com" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="field">
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option value="research">Research collaboration</option>
+            <option value="project">Project or freelance work</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+
+        <fieldset class="field">
+          <legend>How did you find this site?</legend>
+          <label class="inline"><input type="radio" name="source" value="github" checked> GitHub</label>
+          <label class="inline"><input type="radio" name="source" value="linkedin"> LinkedIn</label>
+          <label class="inline"><input type="radio" name="source" value="other"> Other</label>
+        </fieldset>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
+        </div>
+
+        <label class="inline"><input type="checkbox" name="updates"> Tell me when you publish new posts</label>
+
+        <button class="btn btn-primary" type="submit">Send message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Devaansh Pathak</p>
+  </footer>
+
+</body>
+</html>
